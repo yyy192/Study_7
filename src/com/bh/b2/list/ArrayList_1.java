@@ -43,7 +43,7 @@ public class ArrayList_1 {
 		System.out.println("------");
 		System.out.println(ar.get(0));
 		
-		System.out.println("------------------");
+		System.out.println("------");
 		ar.add(1, "add"); //1번째 인덱스에 "add" 삽입
 		//나머지 애들 한칸씩 밀려나
 		
@@ -58,6 +58,19 @@ public class ArrayList_1 {
 		System.out.println(ar.get(i));
 		}
 		
+		System.out.println("------");
+		ar.add("first");
+		ar.add(2);
+		ar.add(3.333);
+		ar.add('4');
+		
+		for(int i=0;i<ar.size();i++) {
+			System.out.println(ar.get(i));
+		}
+		
+		String s0 = (String)ar.get(0); //현재 "first"는 object타입이라 형변환 해줘야 함.
+		int s1 = (Integer)ar.get(1);
+		double s2 = (Double)ar.get(2);
 	}
 
 }
