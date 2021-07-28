@@ -1,10 +1,11 @@
-package com.bh.b2.list;
+package com.bh.b2.list.ex1;
 
-public class Member {
+public class MemberDTO {
 
 	
 	private String id;
 	private String pw;
+	private int age;
 	
 	
 	public String getId() {
@@ -19,5 +20,10 @@ public class Member {
 	public void setPw(String pw) {
 		this.pw = pw;
 	}
-	
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
 }

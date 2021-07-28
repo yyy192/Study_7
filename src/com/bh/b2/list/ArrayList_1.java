@@ -7,7 +7,7 @@ public class ArrayList_1 {
 	public static void main(String[] args) {
 		
 		//객체 생성
-		ArrayList ar = new ArrayList();
+		ArrayList ar = new ArrayList(); //Object 타입 모아
 		String [] str = new String[2];
 		
 		//같은 데이터타입을 모음

@@ -6,8 +6,8 @@ import java.util.List;
 public class ArrayList_2 {
 
 	public static void main(String[] args) {
-		
 		//type이 안전하지 않다
+		
 		ArrayList<String> ar = new ArrayList<String>();
 		
 		//int 담을 ArrayList 선언하기
