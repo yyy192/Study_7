@@ -13,7 +13,7 @@ public class TestMain {
 		
 		t2.start(); //run() 실행, 0 - 24
 		
-		thread.start();
+		thread.start(); // A - Z
 
 	}
 
